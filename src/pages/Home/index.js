@@ -20,11 +20,14 @@ function App() {
               <h3>Ulpio Netto</h3>
               <p>Descrição / Sobre mim</p>
             </div>
-            <div>
-              <h4>Repostórios</h4>
-              <ItemList title="Nome do repositório" description="Descrição do repositório"/>
-            </div>
           </div>
+            <hr/>
+            <div className="repositorios">
+              <h4>Repositórios</h4>
+              <ItemList title="Repositórios" description="Qualquer"/><br/>
+              <ItemList title="Repositórios" description="Qualquer"/><br/>
+              <ItemList title="Repositórios" description="Qualquer"/><br/>
+            </div>
         </div>
       </div>
     </div>
